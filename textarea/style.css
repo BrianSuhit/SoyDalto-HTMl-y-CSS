@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(142, 140, 140);
+}
+
+h2
+{
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+form
+{
+    background-color: rgb(222, 222, 225);
+    padding: 20px 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 5px black;
+}
+
+.form_input
+{
+    padding: 6px 20px;
+}
+
+input, textarea
+{
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border-left: 3px solid rgb(142, 140, 140);
+}
+
+textarea
+{
+    min-width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: sans-serif;
+}
