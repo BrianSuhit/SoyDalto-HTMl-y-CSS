@@ -1,4 +1,4 @@
-/* Selector por atributo */
+/* Selector de atributo */
 img[src="food.jpg"]
 {
     width: 100%;

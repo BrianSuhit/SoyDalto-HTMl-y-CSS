@@ -1,0 +1,23 @@
+section .elemento1, .elemento2, .elemento3
+{
+    color: red;
+}
+
+/* MODIFICANDO LOS ELEMEN. 1, 2 Y 3
+    QUE ESTAN DENTRO DE UN SECTION */
+section :is(.elemento1, .elemento2, .elemento3)
+{
+    color: orange;
+}
+
+/* SI QUEREMOS QUE NO CAMBIE LA ESPECIFICIDAD
+    USAMOS WHERE */
+section :where(.elemento1, .elemento2, .elemento3)
+{
+    color: violet;
+}
+
+section:has(.elemento1)
+{
+    background-color: ghostwhite;
+}
