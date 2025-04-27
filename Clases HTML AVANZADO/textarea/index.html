@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>
+            Formulario de contacto
+        </h2>
+
+    <fieldset>
+        <legend>INFORMACION BASICA</legend>
+        <!-- SIMPLE INPUT -->
+        <div class="form_input">
+            <label >Nombre completo
+                <input type="text" placeholder="Brian Suhit">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Email
+                <input type="email" placeholder="braisuhit@gmail.com">
+            </label>
+        </div>
+    </fieldset>
+
+        <!-- SELECT y OPTIONS-->
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="type-of-user">
+                    <option value="user1">Empleado
+                    <option value="user2">Dueño de negocio
+                    <option value="user3">Autonomo
+                </select> 
+            </label> 
+        </div>
+
+        <!-- DATALIST y OPTIONS-->
+        <div class="form_input">
+            <label>Referente
+                <input list="referente">
+                <datalist id="referente"  name="type-of-user">
+                    <option>soyDalto
+                    <option>Redes sociales
+                    <option>Me anoto un amigo
+                </datalist> 
+            </label> 
+        </div>
+
+
+        <!-- TEXTAREA -->
+        <div class="form_input">
+            <label>mensaje
+                <textarea placeholder="deja tu mensaje..."></textarea>
+            </label>
+        </div>
+        <div class="form_input">
+            <label>acepto los <a href="terms.html">terminos y condiciones</a>
+                <input type="checkbox" class="checkbox"
+            </label>
+        </div>
+    </form>
+</body>
+</html>
