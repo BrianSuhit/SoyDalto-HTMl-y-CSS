@@ -1,0 +1,23 @@
+/* Selector por atributo */
+img[src="food.jpg"]
+{
+    width: 100%;
+}
+
+/* Selector por descendencia/hijo directo */
+ul > strong
+{
+    color: red;
+}
+
+/* Selector de hermano adyacente */
+h1 + p
+{
+    color: blue;
+}
+
+/* Selector de hermanos generales */
+h1 ~ p
+{
+    color: blue;
+}
