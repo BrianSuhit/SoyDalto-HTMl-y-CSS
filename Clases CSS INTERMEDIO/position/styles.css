@@ -1,0 +1,29 @@
+body
+{
+    margin: 0;
+    background-color: #ededed;
+}
+
+/* POSICION RELATIVA */
+.box
+{
+    width: 100px;
+    height: 100px;
+    color: ghostwhite;
+    background-color: #ca6;
+    position: relative;
+}
+
+.box--blue
+{
+    background-color: #37d;
+    left: 50px;
+    z-index: 1;
+}
+
+/* POSICION ABOSULTA, SU ORIGEN ESTA EN EL 0,0 */
+.box--absolute
+{
+    background-color: #E53;
+    position: absolute;
+}

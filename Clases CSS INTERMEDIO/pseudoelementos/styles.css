@@ -1,0 +1,37 @@
+div
+{
+    padding: 20px;
+}
+
+h1::first-letter
+{
+    color: blue;
+}
+
+div::first-line
+{
+    color: red;
+}
+
+h1::selection
+{
+    background-color: red;
+    color: ghostwhite;
+}
+
+li::marker
+{
+    color: blue;
+}
+
+li::before
+{
+    content: "esto va antes";
+    color: blue;
+}
+
+li::after
+{
+    content: "esto va despues";
+    color: blue;
+}
