@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body
+{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:500px)
+{
+    /* body
+    {
+        font-size: 30px;
+        background-color: black;
+        color: aliceblue;
+    } */
+     .flexbox
+     {
+        flex-direction: column;
+     }
+}
+
+.flexbox
+{
+    display: flex;
+}
+
+.flexbox-item
+{
+    background-color: #ccc;
+    padding: 30px;
+    border: 1px solid red;
+    flex-grow: 1;
+}
