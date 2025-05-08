@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+:root
+{
+    --colorPrincipal: #b04a33;
+    --colorSecundario: #3c3c3c; 
+    --textoBase: cursive;
+}
+
+body
+{
+    margin: 0;
+    font-family: var(--textoBase);
+    color: var(--colorPrincipal);
+}
+
+.box
+{
+    font-size: 30px;
+    padding: 0px 40px;
+    border: 6px solid black;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--colorPrincipal) ghostwhite;
+    scrollbar-width: auto;
+}
+
+.crecer
+{
+    height: 200vh;
+}
